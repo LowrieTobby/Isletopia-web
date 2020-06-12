@@ -15,6 +15,8 @@
 import foo from '@/components/Footer';
 import navbar from '@/components/Navbar';
 
+
+
 export default {
   name: 'app',
   components: {

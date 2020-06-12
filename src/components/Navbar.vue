@@ -19,24 +19,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <router-link class="nav-link" to="/" >首页</router-link>
+          <li class="nav-item" v-for="(item,index) in navLinks" :key="index"  :class="{active:index == currentIndex}" @click="onActive(index)">
+            <router-link class="nav-link" :to="{path: item.path}">{{ item.linkTitle }}</router-link>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="http://skin.molean.com">皮肤站</a>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/log">更新日志</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/guide">入服指南</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/FAQ">常见问题</router-link>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/contact">加入我们</router-link>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="">捐助</a></li>
         </ul>
       </div>
     </div>
@@ -49,13 +35,20 @@ export default {
   name: "navbar",
   data() {
       return {
-          'isActive': false,
+          'navLinks':[
+            {'linkTitle':'首页','path':'/'},
+            {'linkTitle':'更新日志','path':'/log'},
+            {'linkTitle':'入服指南','path':'/guide'},
+            {'linkTitle':'常见问题','path':'/FAQ'},
+            {'linkTitle':'加入我们','path':'/contact'},
+          ],
+          'currentIndex': 0,
       }
   },
   methods: {
-      onActive: function () {
-        this.isActive = true;
-      },
+    onActive(index) {
+      this.currentIndex = index;
+    }
   },
 };
 </script>
