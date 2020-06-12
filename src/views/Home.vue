@@ -234,7 +234,6 @@ export default {
     font-size: 1.5rem;
   }
 }
-
 @media (min-width: 1200px) {
   .section-first .img-wrapper {
     padding: 0px 40px;
