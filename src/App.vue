@@ -12,8 +12,8 @@
 </style>
 
 <script>
-import foo from '@/components/Footer/Footer';
-import navbar from '@/components/Navbar/Navbar';
+import foo from '@/components/Footer';
+import navbar from '@/components/Navbar';
 
 export default {
   name: 'app',

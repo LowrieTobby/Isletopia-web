@@ -17,6 +17,9 @@ Vue.component('font-awesome-layers', FontAwesomeLayers)
 Vue.component('font-awesome-layers-text', FontAwesomeLayersText)
 //FontAwesome End
 
+//Boostrap
+import 'bootstrap/dist/css/bootstrap.css'
+//Boostrap
 
 Vue.config.productionTip = false
 

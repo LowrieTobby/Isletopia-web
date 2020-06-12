@@ -2,7 +2,7 @@
   <div class="container">
     <div class="content-wrapper">
       <div class="row">
-        <div class="col-md-3 order-md-3 pd-5">
+        <div class="col-lg-3 order-lg-3 pd-5">
           <div class="right-panel" style="display: none;">
             <div class="card">
               <div class="card-body">
@@ -17,18 +17,18 @@
           </div>
         </div>
 
-        <div class="col-md-3 order-md-1 pd-5">
+        <div class="col-lg-3 order-lg-1 pd-5">
           <div class="left-panel" style="display: none;">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">预留位</h5>
+                <h5 class="card-title"></h5>
                 <p class="card-text"></p>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6 order-sm-2 pd-5">
+        <div class="col-lg-6 order-sm-2 pd-5">
           <div class="center-panel">
             <div class="card">
               <div class="card-body">
