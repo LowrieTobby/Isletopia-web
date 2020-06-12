@@ -18,7 +18,7 @@
                   <ul>
                     <li class="title">常用链接</li>
                     <li>
-                      <a href>更新日志</a>
+                      <a href="/log">更新日志</a>
                     </li>
                     <li>
                       <a href>支持与帮助</a>
@@ -64,7 +64,7 @@
       <div class="footer-info text-center">
         <div class="info-line">
           Designed with
-          <i class="fa fa-heart"></i> by the
+          <font-awesome-icon :icon="['fas', 'heart']" /> by the
           <img
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABVUlEQVQ4y6WTPUhCYRSGn+/ez59QQQXJCDE3CwoSgpa2mqKtoWYXx4baWsKhpZpb2grcjBpa3FragoJsKSkIK0mLm4Kp9zZo+U+mL5zhe895HzhwPuhTxj5jAAqAtmXT33aCucfDsP+vYPok7NeOptMV1Xb/C1BKeWF9v3W67mKpp4Pl7W7h1/jKmucllrJrl161khcAAiC/iSEkqFZQLWAMOUoSzdQYLptcRVnKWRo9EUFIAKsHlKZWcxigNfyj6goW+pbSakQTQaKJIL36CgNqYIBsNUIBZ8fBbr6oXZXR1jE5iJ6NEgo4WRxPwtdHeziCqAPcU+BfAu9ctTrp+bxaD6eQvWoApC8M3JPNw7t7oOv198Z6cz97jRiZrQGK+fYVMhmIH4OU4PPBwnz7ChZbFaAXckWhms3/+o3lgq7YPKoEEKp5+PMmlgRD9gqwT6zOAHwDQthmtXqUpGMAAAAASUVORK5CYII="
             alt
@@ -72,7 +72,7 @@
           />
           <strong>Lowrie</strong>
         </div>
-        <div class="copy-right">Copyright © 梦幻之屿 - 皖ICP备19014025号</div>
+        <div class="copy-right">© 2019 梦幻之屿</div>
       </div>
     </footer>
   </div>
