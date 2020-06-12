@@ -4,7 +4,9 @@
         <div class="section-first">
             <div class="row">
                 <div class="col-lg-6">
+                    <div class="img-wrapper">
                     <img src="@/assets/img/island.png" class="img-fluid" alt="island">
+                    </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="section-title mt-3">
@@ -121,7 +123,7 @@
 
 
 .section-title {
-
+    font-family: ;
 }
 
 .section-text h3 {

@@ -17,11 +17,6 @@ Vue.use(VueRouter)
     component: () => import('../views/About.vue')
   },
   {
-    path: '/contact',
-    name: 'contact',
-    component: () => import('../views/Contact.vue')
-  },
-  {
     path: '/log',
     name: 'log',
     component: () => import('../views/Log.vue')
