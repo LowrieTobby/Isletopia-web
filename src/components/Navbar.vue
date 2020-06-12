@@ -22,7 +22,7 @@
           <li class="nav-item" v-for="(item,index) in navLinks" :key="index"  :class="{active:index == currentIndex}" @click="onActive(index)">
             <router-link class="nav-link" :to="{path: item.path}">{{ item.linkTitle }}</router-link>
           </li>
-          <li class="nav-item"><a class="nav-link" href="">捐助</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://afdian.net/@molean">捐助</a></li>
         </ul>
       </div>
     </div>

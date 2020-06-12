@@ -63,7 +63,7 @@
           <div class="mt-3">
             <div class="section-copy-ip">
               <div class="copy-info">
-                <font-awesome-icon :icon="['fas', 'question-circle']" />已有客户端？复制服务器IP直接连接
+                <font-awesome-icon :icon="['fas', 'question-circle']" /> 已有客户端？复制服务器IP直接连接
               </div>
               <div class="input-group mb-3" style="max-width: 210px">
                 <input
@@ -181,6 +181,7 @@ export default {
 
 .section-first {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 
@@ -217,6 +218,9 @@ export default {
 }
 
 @media (max-width: 768px) {
+    .container{
+        padding: 0px 35px;
+    }
   .section-text {
     margin-top: 40px;
   }
@@ -233,8 +237,7 @@ export default {
 
 @media (min-width: 1200px) {
   .section-first .img-wrapper {
-    padding: 0px 75px;
-    margin-bottom: 65px;
+    padding: 0px 40px;
   }
 }
 </style>

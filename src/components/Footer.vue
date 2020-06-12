@@ -21,13 +21,13 @@
                       <a href="/log">更新日志</a>
                     </li>
                     <li>
-                      <a href>支持与帮助</a>
+                      <a href="/help">支持与帮助</a>
                     </li>
                     <li>
-                      <a href>赞助我们</a>
+                      <a href="https://afdian.net/@molean">赞助我们</a>
                     </li>
                     <li>
-                      <a href>关于梦幻屿</a>
+                      <a href="/about">关于梦幻屿</a>
                     </li>
                   </ul>
                 </div>
@@ -38,7 +38,7 @@
                       <a href="https://namemc.com/server/play.molean.com?q=play.molean.com">NameMC</a>
                     </li>
                     <li>
-                      <a href>MCBBS宣传贴</a>
+                      <a href="https://www.mcbbs.net/thread-949407-1-1.html">MCBBS宣传贴</a>
                     </li>
                   </ul>
                 </div>
@@ -49,10 +49,10 @@
                       <a href="https://skin.molean.com">皮肤站</a>
                     </li>
                     <li>
-                      <a href>高级合成表</a>
+                      <a href="/craft">高级合成表</a>
                     </li>
                     <li>
-                      <a href>McMMO</a>
+                      <a href="/McMMO">McMMO</a>
                     </li>
                   </ul>
                 </div>
