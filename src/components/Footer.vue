@@ -72,7 +72,7 @@
           />
           <strong>Lowrie</strong>
         </div>
-        <div class="copy-right">© 2019 梦幻之屿</div>
+        <div class="copy-right">© 2020 梦幻之屿</div>
       </div>
     </footer>
   </div>

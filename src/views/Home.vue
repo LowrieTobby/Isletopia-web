@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="img-wrapper">
-            <img src="@/assets/img/island.png" class="img-fluid" alt="island" />
+            <img src="https://cdn.molean.com/island_transparent.png" class="img-fluid" alt="island" />
           </div>
         </div>
         <div class="col-lg-6">
