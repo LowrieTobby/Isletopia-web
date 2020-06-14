@@ -11,7 +11,7 @@
 
 body {
     color: #3a3a3a;
-    background-color: #f3f3f3;
+    background-color: #f3f3f3 !important;
     padding-top: 56px;
 }
 
@@ -69,3 +69,9 @@ footer .footer-info .info-line a{
 footer .footer-info .info-line a:hover{
     color: #fff;
 }
+
+/* @media (max-width: 768px) {
+    .container{
+        padding: 0px 35px;
+    }
+} */

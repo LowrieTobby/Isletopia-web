@@ -19,10 +19,15 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item" v-for="(item,index) in navLinks" :key="index"  :class="{active:index == currentIndex}" @click="onActive(index)">
+          <!-- <li class="nav-item" v-for="(item,index) in navLinks" :key="index">
             <router-link class="nav-link" :to="{path: item.path}">{{ item.linkTitle }}</router-link>
           </li>
-          <li class="nav-item"><a class="nav-link" href="https://afdian.net/@molean">捐助</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://afdian.net/@molean">捐助</a></li> -->
+          <!-- <router-link tag="li" :to="{path: item.path}" class="nav-item" v-for="(item,index) in navLinks" :key="index" active-class="active" exact-active-class=""> -->
+          <router-link tag="li" :to="{path: item.path}" class="nav-item" v-for="(item,index) in navLinks" :key="index">
+            <a class="nav-link">{{ item.linkTitle }}</a>
+          </router-link>
+          <li class="nav-item"><a class="nav-link" href="https://afdian.net/@molean">捐助 <font-awesome-icon :icon="['fas', 'external-link-alt']" /></a></li>
         </ul>
       </div>
     </div>
@@ -36,19 +41,13 @@ export default {
   data() {
       return {
           'navLinks':[
-            {'linkTitle':'首页','path':'/'},
+            {'linkTitle':'首页','path':'/home'},
             {'linkTitle':'更新日志','path':'/log'},
             {'linkTitle':'入服指南','path':'/guide'},
             {'linkTitle':'常见问题','path':'/FAQ'},
             {'linkTitle':'加入我们','path':'/contact'},
           ],
-          'currentIndex': 0,
       }
-  },
-  methods: {
-    onActive(index) {
-      this.currentIndex = index;
-    }
   },
 };
 </script>

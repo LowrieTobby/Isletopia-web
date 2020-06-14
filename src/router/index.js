@@ -7,6 +7,10 @@ Vue.use(VueRouter)
   const routes = [
   {
     path: '/',
+    redirect: '/home'
+  },
+  {
+    path: '/home',
     name: 'Home',
     component: () => import('../views/Home.vue')
   },
@@ -41,6 +45,8 @@ Vue.use(VueRouter)
 
 const router = new VueRouter({
   mode: 'history',
+  linkActiveClass: 'active',
+  linkExactActiveClass: '',
   base: process.env.BASE_URL,
   routes
 })

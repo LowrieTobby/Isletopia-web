@@ -3,14 +3,12 @@
     <div class="content-wrapper">
       <div class="row">
         <div class="col-lg-3 order-lg-3 pd-5">
-          <div class="right-panel" style="display: none;">
-            <div class="card">
+          <div class="right-panel" >
+            <div class="card bg-primary text-light">
               <div class="card-body">
-                <h5 class="card-title">公告栏</h5>
+                <h5 class="card-title">这是什么？</h5>
                 <p class="card-text">
-                  Bootstrap’s grid includes five tiers of predefined classes for
-                  building complex responsive layouts. Customize the size of your columns on extra
-                  small, small, medium, large, or extra large devices however you see fit.
+                  这个页面展示服务器更新日志的相关内容，了解服务器最新变动
                 </p>
               </div>
             </div>
@@ -128,5 +126,8 @@ export default {};
 }
 .center-panel .card:last-child {
   margin-bottom: 20px;
+}
+.text-muted{
+  color: var(--primary) !important;
 }
 </style>

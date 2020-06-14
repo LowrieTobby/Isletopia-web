@@ -37,7 +37,7 @@
                   </a>
                   <a href>
                     <img
-                      src="https://img.shields.io/badge/version-1.15.2-blue?style=?style=plastic&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVQ4jb2S2w2AIBAELYESLIEOpBQ7g068zsaf05yKgvjYZBNYNhOO0HVvCPBABKZKR8BbQOK+kgVIA0CyAJMFUw4m/xgADOpRc9H1khcBh0LpPFdYr3wy0g8AwJm5XQsgXOyLgBptAI+/sleIVDoB/f6hmzQD1OaiJSpPTDUAAAAASUVORK5CYII="
+                      src="https://img.shields.io/badge/vanilla-1.15.2-blue?style=?style=plastic&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVQ4jb2S2w2AIBAELYESLIEOpBQ7g068zsaf05yKgvjYZBNYNhOO0HVvCPBABKZKR8BbQOK+kgVIA0CyAJMFUw4m/xgADOpRc9H1khcBh0LpPFdYr3wy0g8AwJm5XQsgXOyLgBptAI+/sleIVDoB/f6hmzQD1OaiJSpPTDUAAAAASUVORK5CYII="
                       alt="version-1.15.2"
                     />
                   </a>
@@ -55,6 +55,9 @@
                   </a>
                   <a href>
                     <img src="https://img.shields.io/badge/MOD-VoxelMap | 12+-success" alt />
+                  </a>
+                  <a href>
+                    <img src="https://img.shields.io/badge/ShaderPacks-Sildurs Vibrant-success" alt />
                   </a>
                 </div>
               </div>

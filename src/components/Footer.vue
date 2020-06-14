@@ -24,7 +24,7 @@
                       <a href="/help">支持与帮助</a>
                     </li>
                     <li>
-                      <a href="https://afdian.net/@molean">赞助我们</a>
+                      <a href="https://afdian.net/@molean">赞助我们 <font-awesome-icon :icon="['fas', 'external-link-alt']" /></a>
                     </li>
                     <li>
                       <a href="/about">关于梦幻屿</a>
@@ -35,10 +35,10 @@
                   <ul>
                     <li class="title">友情链接</li>
                     <li>
-                      <a href="https://namemc.com/server/play.molean.com?q=play.molean.com">NameMC</a>
+                      <a href="https://namemc.com/server/play.molean.com?q=play.molean.com">NameMC <font-awesome-icon :icon="['fas', 'external-link-alt']" /></a>
                     </li>
                     <li>
-                      <a href="https://www.mcbbs.net/thread-949407-1-1.html">MCBBS宣传贴</a>
+                      <a href="https://www.mcbbs.net/thread-949407-1-1.html">MCBBS宣传贴 <font-awesome-icon :icon="['fas', 'external-link-alt']" /></a>
                     </li>
                   </ul>
                 </div>
@@ -46,7 +46,7 @@
                   <ul>
                     <li class="title">玩法&功能</li>
                     <li>
-                      <a href="https://skin.molean.com">皮肤站</a>
+                      <a href="https://skin.molean.com">皮肤站 <font-awesome-icon :icon="['fas', 'external-link-alt']" /></a>
                     </li>
                     <li>
                       <a href="/craft">高级合成表</a>
@@ -64,7 +64,7 @@
       <div class="footer-info text-center">
         <div class="info-line">
           Designed with
-          <font-awesome-icon :icon="['fas', 'heart']" /> by the
+          <font-awesome-icon :icon="['fas', 'heart']" /> by
           <img
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAABVUlEQVQ4y6WTPUhCYRSGn+/ez59QQQXJCDE3CwoSgpa2mqKtoWYXx4baWsKhpZpb2grcjBpa3FragoJsKSkIK0mLm4Kp9zZo+U+mL5zhe895HzhwPuhTxj5jAAqAtmXT33aCucfDsP+vYPok7NeOptMV1Xb/C1BKeWF9v3W67mKpp4Pl7W7h1/jKmucllrJrl161khcAAiC/iSEkqFZQLWAMOUoSzdQYLptcRVnKWRo9EUFIAKsHlKZWcxigNfyj6goW+pbSakQTQaKJIL36CgNqYIBsNUIBZ8fBbr6oXZXR1jE5iJ6NEgo4WRxPwtdHeziCqAPcU+BfAu9ctTrp+bxaD6eQvWoApC8M3JPNw7t7oOv198Z6cz97jRiZrQGK+fYVMhmIH4OU4PPBwnz7ChZbFaAXckWhms3/+o3lgq7YPKoEEKp5+PMmlgRD9gqwT6zOAHwDQthmtXqUpGMAAAAASUVORK5CYII="
             alt
