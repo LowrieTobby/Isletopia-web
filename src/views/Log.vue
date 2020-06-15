@@ -3,14 +3,32 @@
     <div class="content-wrapper">
       <div class="row">
         <div class="col-lg-3 order-lg-3 pd-5">
-          <div class="right-panel" >
-            <div class="card bg-primary text-light">
-              <div class="card-body">
-                <h5 class="card-title">这是什么？</h5>
-                <p class="card-text">
-                  这个页面展示服务器更新日志的相关内容，了解服务器最新变动
-                </p>
-              </div>
+          <div class="right-panel">
+
+            
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+              <font-awesome-icon :icon="['fas', 'exclamation-circle']" /> 该页面还在建设中
+              <button
+                type="button"
+                class="close"
+                data-dismiss="alert"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            
+            <div class="alert alert-primary alert-dismissible fade show" role="alert">
+              <strong><font-awesome-icon :icon="['fas', 'question-circle']" /> 这是什么</strong> 
+              <p>这个页面展示服务器更新日志的相关内容，在这里可以了解服务器最新变动</p>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="alert"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
           </div>
         </div>
@@ -127,7 +145,11 @@ export default {};
 .center-panel .card:last-child {
   margin-bottom: 20px;
 }
-.text-muted{
+.text-muted {
   color: var(--primary) !important;
+}
+
+.alert{
+  margin-bottom: 7px;
 }
 </style>

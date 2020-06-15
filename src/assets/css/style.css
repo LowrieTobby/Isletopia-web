@@ -9,6 +9,12 @@
     }
 }
 
+@media (max-width: 768px) {
+    .container{
+        padding: 0px 35px !important;
+    }
+}
+
 body {
     color: #3a3a3a;
     background-color: #f3f3f3 !important;
