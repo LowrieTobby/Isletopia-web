@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="content-wrapper">
+    <div class="mt-3">
       <div class="row">
         <div class="col-lg-3 order-lg-3 pd-5">
           <div class="right-panel">

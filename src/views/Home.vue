@@ -221,9 +221,6 @@ export default {
 }
 
 @media (max-width: 768px) {
-    .container{
-        padding: 0px 35px;
-    }
   .section-text {
     margin-top: 40px;
   }

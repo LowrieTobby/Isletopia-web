@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light box-shadow fixed-top">
     <div class="container">
       <a class="navbar-brand" href="/">
-        <img src="@/assets/img/logo.png" width="auto" height="24px" class alt="梦幻之屿" />
+        <img src="@/assets/img/logo_text_gray.svg" width="auto" height="24px" class alt="梦幻之屿" />
       </a>
 
       <button
@@ -27,7 +27,7 @@
           <router-link tag="li" :to="{path: item.path}" class="nav-item" v-for="(item,index) in navLinks" :key="index">
             <a class="nav-link">{{ item.linkTitle }}</a>
           </router-link>
-          <li class="nav-item"><a class="nav-link" href="https://afdian.net/@molean">捐助 <font-awesome-icon :icon="['fas', 'external-link-alt']" /></a></li>
+          <li class="nav-item"><a class="nav-link" href="https://afdian.net/@molean">捐助 <font-awesome-icon :icon="['fas', 'external-link-alt']" size="xs" /></a></li>
         </ul>
       </div>
     </div>

@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <navbar></navbar>
-    <router-view/>
+    <div class="content-wrapper">
+      <router-view/>
+    </div>
     <foo></foo>
   </div>
 </template>
@@ -25,4 +27,10 @@ export default {
 <style>
 /* 导入全局样式 style.css */
 @import "./assets/css/style.css";
+
+@media (max-width: 768px) {
+    .content-wrapper{
+        padding: 0px 15px !important;
+    }
+}
 </style>
