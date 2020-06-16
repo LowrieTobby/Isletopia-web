@@ -2,7 +2,7 @@
   <div>
     <footer>
       <div class="container">
-        <div class="footer-links">
+        <div class="footer-links col-12">
           <div class="row">
             <div class="col-lg-4 mb-5">
               <a href="/">
