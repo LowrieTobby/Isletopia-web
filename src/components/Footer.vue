@@ -73,7 +73,9 @@
             alt
             height
           />
-          <strong>Lowrie</strong>
+          <strong>
+            <a href="https://blog.lowrie.xyz/about">Lowrie</a>
+          </strong>
         </div>
         <div class="copy-right">© 2020 梦幻之屿</div>
       </div>
@@ -113,7 +115,6 @@ footer ul li a:hover {
 
 footer .title {
     font-size: 1.2rem;
-    margin-bottom: 8px
 }
 
 footer .footer-info {

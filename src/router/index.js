@@ -54,6 +54,10 @@ Vue.use(VueRouter)
     path: '/Closed',
     name: 'Closed',
     component: () => import('../views/Closed.vue')
+  },
+  {
+    path: '/*',
+    component: () => import('../views/404.vue')
   }
 
 ]

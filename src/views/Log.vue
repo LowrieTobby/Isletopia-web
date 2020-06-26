@@ -6,8 +6,8 @@
           <div class="right-panel">
 
             
-            <div class="alert alert-warning alert-dismissible fade show" role="alert">
-              <font-awesome-icon :icon="['fas', 'exclamation-circle']" /> 该页面还在建设中
+            <div class="alert alert-warning alert-dismissible fade show box-shadow" role="alert">
+              <font-awesome-icon :icon="['fas', 'exclamation-circle']" /> 该页面还在开发中
               <button
                 type="button"
                 class="close"
@@ -18,7 +18,7 @@
               </button>
             </div>
             
-            <div class="alert alert-primary alert-dismissible fade show" role="alert">
+            <div class="alert alert-primary alert-dismissible fade show box-shadow" role="alert">
               <strong><font-awesome-icon :icon="['fas', 'question-circle']" /> 这是什么</strong> 
               <p>这个页面展示服务器更新日志的相关内容，在这里可以了解服务器最新变动</p>
               <button
@@ -46,7 +46,7 @@
 
         <div class="col-lg-6 order-sm-2 pd-5">
           <div class="center-panel">
-            <div class="card">
+            <div class="card box-shadow">
               <div class="card-body">
                 <h5 class="card-title">2020-6-1 更新</h5>
                 <h6 class="card-subtitle mb-3 text-muted">2020-6-1</h6>
@@ -70,7 +70,7 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card box-shadow">
               <div class="card-body">
                 <h5 class="card-title">2020-5-31 日常更新</h5>
                 <h6 class="card-subtitle mb-3 text-muted">2020-5-31</h6>
@@ -86,7 +86,7 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card box-shadow">
               <div class="card-body">
                 <h5 class="card-title">2020-5-31 日常更新</h5>
                 <h6 class="card-subtitle mb-3 text-muted">2020-5-31</h6>
@@ -102,7 +102,7 @@
               </div>
             </div>
 
-            <div class="card">
+            <div class="card box-shadow">
               <div class="card-body">
                 <h5 class="card-title">2020-5-31 日常更新</h5>
                 <h6 class="card-subtitle mb-3 text-muted">2020-5-31</h6>

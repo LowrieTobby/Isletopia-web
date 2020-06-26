@@ -1,3 +1,6 @@
+:root{
+    --theme-color: #007bff;
+}
 @media (min-width: 1200px) {
 
     .container,
@@ -19,5 +22,5 @@ body {
 } */
 
 .box-shadow {
-    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.10);
 }

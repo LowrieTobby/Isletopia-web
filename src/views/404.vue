@@ -3,7 +3,7 @@
     <div class="content-wrapper">
     <div class="mt-30 jumbotron jumbotron-fluid error-box">
       <div class="container">
-        <h1 class="display-4">{{ title }}</h1>
+        <h1 class="display-4">404</h1>
         <p class="lead">{{ msg }}</p>
       </div>
     </div>
@@ -15,8 +15,7 @@
 export default {
   data() {
     return {
-      'title': '无法访问！',
-      'msg': '糟糕，你访问的页面还在完善当中！' 
+      'msg': '糟糕，你访问的页面不存在！' 
     }
   },
 };

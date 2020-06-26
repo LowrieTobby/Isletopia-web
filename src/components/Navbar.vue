@@ -25,7 +25,7 @@
           <li class="nav-item"><a class="nav-link" href="https://afdian.net/@molean">捐助</a></li> -->
           <!-- <router-link tag="li" :to="{path: item.path}" class="nav-item" v-for="(item,index) in navLinks" :key="index" active-class="active" exact-active-class=""> -->
           <router-link tag="li" :to="{path: item.path}" class="nav-item" v-for="(item,index) in navLinks" :key="index">
-            <a class="nav-link">{{ item.linkTitle }}</a>
+            <a class="nav-link" @click="collapseToggle()">{{ item.linkTitle }}</a>
           </router-link>
           <li class="nav-item"><a class="nav-link" href="https://afdian.net/@molean">捐助 <font-awesome-icon :icon="['fas', 'external-link-alt']" size="xs" /></a></li>
         </ul>
@@ -48,6 +48,11 @@ export default {
             {'linkTitle':'加入我们','path':'/contact'},
           ],
       }
+  },
+  methods: {
+    collapseToggle() {
+      $('#navbarNav').collapse('hide');
+    }
   },
 };
 </script>
