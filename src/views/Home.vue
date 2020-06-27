@@ -10,7 +10,7 @@
         </div>
         <div class="col-lg-6">
           <div class="section-title mt-3">
-            <img src="@/assets/img/island_title.png" class="img-fluid" alt="island_title" />
+            <img src="@/assets/img/island_title.svg" class="img-fluid" alt="island_title" />
             <div class="section-text">
               <h3>
                 <strong>只有一个空岛</strong>
