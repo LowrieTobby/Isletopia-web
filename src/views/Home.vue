@@ -37,7 +37,7 @@
                   </a>
                   <a href>
                     <img
-                      src="https://img.shields.io/badge/vanilla-1.15.2-blue?style=?style=plastic&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAd0lEQVQ4jb2S2w2AIBAELYESLIEOpBQ7g068zsaf05yKgvjYZBNYNhOO0HVvCPBABKZKR8BbQOK+kgVIA0CyAJMFUw4m/xgADOpRc9H1khcBh0LpPFdYr3wy0g8AwJm5XQsgXOyLgBptAI+/sleIVDoB/f6hmzQD1OaiJSpPTDUAAAAASUVORK5CYII="
+                      src="https://img.shields.io/badge/Minecraft-1.15.2-purple"
                       alt="version-1.15.2"
                     />
                   </a>
@@ -51,7 +51,7 @@
                     <img src="https://img.shields.io/badge/Fabric-0.8.5-blue" alt />
                   </a>
                   <a href>
-                    <img src="https://img.shields.io/badge/size-280M-lightgray" alt />
+                    <img src="https://img.shields.io/badge/Size-280M-lightgray" alt />
                   </a>
                   <a href>
                     <img src="https://img.shields.io/badge/MOD-VoxelMap | 12+-success" alt />
