@@ -12,9 +12,9 @@
           <div class="section-title mt-3">
             <img src="@/assets/img/island_title.svg" class="img-fluid" alt="island_title" />
             <div class="section-text">
-              <h3>
+              <div class="text-title">
                 <strong>只有一个空岛</strong>
-              </h3>
+              </div>
               <p>与原版极为接近的游戏体验，即使是多人也能很好地配合。近乎无限制的岛屿，让你的世界无限可能。</p>
             </div>
           </div>
@@ -63,10 +63,14 @@
               </div>
             </div>
           </div>
+          <div class="section-add-qq">
+            <a href="https://jq.qq.com/?_wv=1027&k=g0r6uTW8" class="btn btn-block btn-lg btn-primary">加入群聊</a>
+          </div>
           <div class="mt-3">
             <div class="section-copy-ip">
+              
               <div class="copy-info">
-                <font-awesome-icon :icon="['fas', 'question-circle']" /> 已有客户端？复制服务器IP直接连接
+                <font-awesome-icon :icon="['fas', 'question-circle']" />已有客户端？复制服务器IP直接连接
               </div>
               <div class="input-group mb-3" style="max-width: 210px">
                 <input
@@ -150,7 +154,7 @@ import clipboard from "clipboard";
 export default {
   data() {
     return {
-      ip: "play.molean.com"
+      ip: "play.molean.com",
     };
   },
   methods: {
@@ -160,17 +164,16 @@ export default {
           return string;
         }
       });
-    clipboard.on('success', function(e) {
+      clipboard.on("success", function(e) {
+        alert("复制成功");
+        clipboard.destroy();
+      });
+
+      clipboard.on("error", function(e) {
         //to do
 
-        clipboard.destroy()
-    });
-
-    clipboard.on('error', function(e) {
-        //to do
-
-        clipboard.destroy()
-    });
+        clipboard.destroy();
+      });
     }
   }
 };
@@ -186,7 +189,6 @@ export default {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
 
 .section-text h3 {
   font-size: 2rem;
@@ -219,7 +221,12 @@ export default {
   margin-bottom: 5px;
   color: #898989;
 }
-
+.section-add-qq {
+  display: none;
+}
+.img-wrapper{
+  padding: 0px 40px;
+}
 @media (max-width: 768px) {
   .section-text {
     margin-top: 40px;
@@ -232,6 +239,16 @@ export default {
   }
   .section-text h3 {
     font-size: 1.5rem;
+  }
+
+  .section-add-qq{
+    display: block;
+  }
+  .section-download{
+    display: none;
+  }
+  .section-copy-ip{
+    display: none;
   }
 }
 @media (min-width: 1200px) {

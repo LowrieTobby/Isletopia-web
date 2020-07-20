@@ -42,6 +42,12 @@
                   <ul>
                     <li class="title">友情链接</li>
                     <li>
+                      <a href="https://jq.qq.com/?_wv=1027&k=g0r6uTW8">
+                        官方QQ群
+                        <font-awesome-icon :icon="['fas', 'external-link-alt']" size="xs"/>
+                      </a>
+                    </li>
+                    <li>
                       <a href="https://namemc.com/server/play.molean.com?q=play.molean.com">
                         NameMC
                         <font-awesome-icon :icon="['fas', 'external-link-alt']" size="xs" />
