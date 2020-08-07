@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light box-shadow fixed-top">
     <div class="container">
       <a class="navbar-brand" href="/">
-        <img src="@/assets/img/logo_text_gray.svg" width="auto" height="24px" class alt="梦幻之屿" />
+        <img src="@/assets/img/logo_text_gray.svg" width="auto" height="24px" class alt="梦幻之屿-logo" />
       </a>
 
       <button
