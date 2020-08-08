@@ -1,4 +1,5 @@
 # Isletopia-web
+![](https://img.shields.io/jenkins/build?jobUrl=https%3A%2F%2Fisletopia.net%2Fjenkins%2Fview%2Fall%2Fjob%2Fisletopia-web%2F)
 
 
 ## 简介
