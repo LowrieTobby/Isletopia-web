@@ -4,7 +4,7 @@
 
 ## 简介
 
-[梦幻之屿](https://isletopia.net)主页，该网页基于 `vue` 开发
+[梦幻之屿](https://isletopia.net)主页，该网页基于 `vue 2.x` 开发
 
 开发环境：`npm 6.14.4` 和 `vue-cli 4.4.1(latest)`
 
