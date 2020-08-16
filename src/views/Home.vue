@@ -37,7 +37,7 @@
                   </a>
                   <a href>
                     <img
-                      src="https://img.shields.io/badge/Minecraft-1.16.1-purple"
+                      src="https://img.shields.io/badge/Minecraft-1.16.2-purple"
                       alt="version-1.16.2"
                     />
                   </a>
@@ -51,7 +51,7 @@
                     <img src="https://img.shields.io/badge/Fabric-0.8.5-blue" alt />
                   </a>
                   <a href>
-                    <img src="https://img.shields.io/badge/Size-280M-lightgray" alt />
+                    <img src="https://img.shields.io/badge/Size-365M-lightgray" alt />
                   </a>
                   <a href>
                     <img src="https://img.shields.io/badge/MOD-VoxelMap | 12+-success" alt />
