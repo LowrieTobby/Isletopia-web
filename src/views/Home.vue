@@ -37,7 +37,7 @@
                   </a>
                   <a href>
                     <img
-                      src="https://img.shields.io/badge/Minecraft-1.16.2-purple"
+                      src="https://img.shields.io/badge/Minecraft-1.16.3-purple"
                       alt="version-1.16.3"
                     />
                   </a>
