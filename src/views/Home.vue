@@ -24,7 +24,7 @@
                 <a href="http://cdn.molean.com/Client.zip" class="btn btn-block btn-lg btn-primary">
                   <font-awesome-icon :icon="['fas', 'download']" />下载客户端
                   <br />
-                  <span>1.16.2</span>
+                  <span>1.16.3</span>
                 </a>
               </div>
               <div class="col-lg-7">
@@ -38,7 +38,7 @@
                   <a href>
                     <img
                       src="https://img.shields.io/badge/Minecraft-1.16.2-purple"
-                      alt="version-1.16.2"
+                      alt="version-1.16.3"
                     />
                   </a>
                   <a href>
